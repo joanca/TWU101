@@ -29,11 +29,7 @@ public class Diamond03 {
 
     private static void printDiamondWithName(int n) {
         printUpperTriangle(n);
-
-        //System.out.println("JC");
-
         printLowerTriangle(n - 1);
-
     }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
